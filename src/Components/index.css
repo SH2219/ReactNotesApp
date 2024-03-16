@@ -1,0 +1,163 @@
+.btn {
+  margin-right: 1vw !important;
+  border-radius: 100% !important ;
+}
+
+.btn:hover {
+  background-color: rgb(63, 11, 105) !important;
+  border: 1px solid blueviolet !important;
+}
+
+.card {
+  margin-top: 5rem;
+  width: 24rem !important;
+  background: beige !important;
+  border-radius: 20px !important;
+  border: transparent !important;
+  max-height: 50rem;
+  white-space: pre-wrap;
+  margin-left: 2rem;
+  height: 20rem !important;
+}
+.card-footer {
+  display: flex !important;
+  justify-content: space-between;
+  outline: transparent !important;
+  background-color: beige !important;
+  border: 1px solid beige !important;
+  border-radius: 20px !important;
+}
+
+.card.new {
+  background-color: #67d7cc !important;
+  margin-top: 5vw;
+  height: 20rem !important;
+  border: transparent !important;
+  margin-left: 3.2rem;
+  width: 20rem !important;
+  margin-bottom: 125px;
+}
+.edit{
+  cursor: pointer;
+  transition: 1s;
+}
+.edit:hover{
+  scale: 1.2;
+}
+
+.search{
+  background-color: blueviolet;
+}
+textarea {
+  margin-top: 0.5rem !important;
+  border: none !important;
+  resize: none !important;
+  background-color: #67d7cc !important;
+}
+
+textarea:focus {
+  outline: none !important;
+}
+
+.title {
+  margin-top: 0.5rem !important;
+  border: none !important;
+  resize: none !important;
+  background-color: #67d7cc !important;
+}
+
+.title:focus {
+  outline: none !important;
+}
+
+.note-footer {
+  margin-bottom: 20px;
+  display: flex !important;
+  justify-content: space-between;
+}
+
+.save {
+  border: none !important;
+  border-radius: 16px;
+  background-color: rgb(23, 62, 59);
+  color: aliceblue;
+  padding: 5px 10px 5px 10px;
+  transition: 1s;
+}
+
+.save:hover {
+  background-color: rgb(44, 103, 98);
+}
+
+.icon {
+  cursor: pointer !important;
+  transition: 1s;
+}
+.icon:hover{
+  scale: 1.2;
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  .card.new {
+    margin-top: 5vw;
+    margin-left: 0;
+    width: 100% !important;
+  }
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2vw;
+}
+.save2{
+  width: 4rem;
+  height: 2rem;
+  border: transparent;
+  background-color: rgb(183, 183, 183);
+  color: rgb(11, 11, 11);
+  border-radius: 12px;
+}
+.save2:hover{
+  background-color: rgb(116, 119, 121);
+}
+
+.darkMode{
+  background-color: rgb(18, 3, 29);
+}
+
+.darkMode h1{
+  color: aliceblue;
+}
+.darkMode input{
+  background-color: rgb(173, 140, 196);
+  border: violet;
+}
+/* Media Queries for medium screens */
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  .card {
+    width: 18rem !important;
+  }
+
+  .card.new {
+    width: 18rem !important;
+  }
+}
+
+/* Media Queries for large screens */
+
+@media only screen and (min-width: 1201px) {
+  .card {
+    width: 24rem !important;
+  }
+
+  .card.new {
+    width: 20rem !important;
+  }
+}
